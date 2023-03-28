@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    background-color: rgb(75, 35, 141);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+.link {
+    margin-top: 30px;
+}
+span a {
+    color: white;
+    text-decoration: none;
+}
+span a:hover{
+    text-decoration: underline;
+    color: orange;
+    text-decoration-style: italic;
+}
+h1 {
+    color: tomato;
+}
+
+ul li {
+    color: pink;
+}
+ol li {
+    color: yellow;
+}
+span {
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+span p {
+    margin: 30px 30px 30px 30px;
+    text-align: justify;
+}
